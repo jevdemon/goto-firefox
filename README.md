@@ -6,7 +6,7 @@ Note that this app is hard-coded to use Firefox.
 
 ## Screenshot
 
-![Goto Firefox running on a TCL Flip 2](screenshots/main-screen.png)
+![Goto Firefox running on a TCL Flip 2](screenshots/screenshot.jpg)
 
 ## Why this exists
 
