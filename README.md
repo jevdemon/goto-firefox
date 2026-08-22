@@ -2,7 +2,7 @@
 
 A tiny companion app for D-pad-only Android devices (flip phones, feature-phone-style
 hardware) where Firefox's address bar doesn't respond to the D-pad's Enter key.
-Note that this app is hard-coded to use Firefox. 
+This app is hard-coded to use Firefox but can be easily changed to use any browser (see below). 
 
 ## Screenshot
 
