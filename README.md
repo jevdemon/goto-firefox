@@ -1,8 +1,10 @@
 # Goto Firefox
 
-A tiny companion app for D-pad-only Android devices (flip phones, feature-phone-style
-hardware) where Firefox's address bar doesn't respond to the D-pad's Enter key.
-Note that this app is hard-coded to use Firefox. 
+A tiny companion app for Android devices that have a D-Pad and lack a touchscreen (such as a 
+flip phone). Firefox's address bar doesn't respond to the D-pad's Enter key - there is no 
+way to navigate to the URL you entered into the address bar.
+
+NOTE: This app is hard-coded to use Firefox but can be easily changed to use any browser (see below). 
 
 ## Screenshot
 
@@ -11,14 +13,13 @@ Note that this app is hard-coded to use Firefox.
 ## Why this exists
 
 On devices with no touchscreen and no hardware keyboard — just a D-pad — typing a URL
-into Firefox for Android and pressing the D-pad's center/OK button does nothing. The
-keypress reaches the address bar (confirmed via `uiautomator` inspection), but Firefox's
-Compose-based toolbar doesn't act on it, likely because it's only wired to react to
-IME-routed input (a real keyboard's Enter, or a touchscreen's on-screen "Go" action) —
-not a raw D-pad-sourced key event. A real hardware keyboard's Enter key works fine in
-the same field; only D-pad-sourced Enter is ignored. Other browsers (tested: Opera Mini)
-show the same failure pattern, so this isn't Firefox-specific — it's how these apps
-generally handle D-pad input in text fields.
+into Firefox and pressing the D-pad's center/OK button does nothing. The keypress reaches 
+the address bar (confirmed via `uiautomator` inspection), but Firefox's Compose-based 
+toolbar doesn't act on it, likely because it's only wired to react to IME-routed input 
+(a real keyboard's Enter, or a touchscreen's on-screen "Go" action) — not a raw D-pad-sourced 
+key event. A real hardware keyboard's Enter key works fine in the same field; only D-pad-sourced 
+Enter is ignored. Other browsers (tested with Opera Mini) show the same failure pattern, so this 
+isn't Firefox-specific — it's how these apps generally handle D-pad input in text fields.
 
 ## What this app does
 
