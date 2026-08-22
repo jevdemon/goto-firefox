@@ -4,7 +4,10 @@ A tiny companion app for Android devices that have a D-Pad and lack a touchscree
 flip phone). Firefox's address bar doesn't respond to the D-pad's Enter key - there is no 
 way to navigate to the URL you entered into the address bar.
 
+![Download the APK here](https://github.com/jevdemon/goto-firefox/releases/tag/v1.0)
+
 NOTE: This app is hard-coded to use Firefox but can be easily changed to use any browser (see below). 
+
 
 ## Screenshot
 
