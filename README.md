@@ -1,7 +1,7 @@
 # Goto Firefox
 
-A tiny companion app for Android devices that have a D-Pad and lack without a touchscreen (such 
-as a flip phone). Firefox's address bar doesn't respond to the D-pad's Enter key - there is no 
+A tiny companion app for Android devices that have a D-Pad and lack a touchscreen (such as a 
+flip phone). Firefox's address bar doesn't respond to the D-pad's Enter key - there is no 
 way to navigate to the URL you entered into the address bar.
 
 NOTE: This app is hard-coded to use Firefox but can be easily changed to use any browser (see below). 
