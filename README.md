@@ -42,6 +42,41 @@ Features:
   launcher for it, not a browser itself
 - Android 7.0+ (`minSdk 24`)
 
+## Installing
+
+This app isn't on the Play Store — you'll sideload the APK directly.
+
+### Requirements
+- Firefox for Android must already be installed on your device (or edit the target
+  browser — see [Using a different browser](#using-a-different-browser))
+- "Install from unknown sources" enabled for whichever app you use to install it
+
+### Option A: Install via adb (recommended for D-pad-only / non-touchscreen devices)
+
+If your device is like the one this was built for like a flip phone (no touchscreen, D-pad only),
+downloading and tapping the APK on-device isn't easy. Install from a PC
+instead:
+
+1. Download `goto-firefox-v1.0.apk` from the
+   [Releases page](https://github.com/jevdemon/goto-firefox/releases)
+2. Enable USB debugging on your device and connect it via USB
+3. From a command prompt/terminal, in the folder where you downloaded the APK:
+     adb install goto-firefox-v1.0.apk
+4. The app will appear in your app drawer as "Firefox Go"
+
+### Option B: Install directly on-device (touchscreen devices)
+
+1. Download the APK from the [Releases page](https://github.com/jevdemon/goto-firefox/releases)
+   using your device's browser
+2. Open the downloaded file from your notifications or file manager
+3. Confirm the "install from unknown sources" prompt if it appears
+4. Install
+
+### Verifying the download (optional but recommended)
+
+Confirm the file wasn't altered in transit by checking its SHA-256 hash matches the one
+listed on the [Releases page](https://github.com/jevdemon/goto-firefox/releases): 0d0ec41026bcc8d5270acdafba4818b19607d9351a75f8e89c053046c1a65ef1
+
 ## Building
 
 Open in Android Studio, let Gradle sync, then Run with a device connected. Or from the
