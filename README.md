@@ -6,8 +6,7 @@ way to navigate to the URL you entered into the address bar.
 
 ![Download the APK here](https://github.com/jevdemon/goto-firefox/releases/tag/v1.0)
 
-NOTE: This app is hard-coded to use Firefox but can be easily changed to use any browser (see below). 
-
+NOTE: This app is hard-coded to use Firefox ![but can be easily changed to use any browser](https://github.com/jevdemon/goto-firefox#using-a-different-browser). 
 
 ## Screenshot
 
