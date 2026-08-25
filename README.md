@@ -25,6 +25,7 @@ below) and hands it to Firefox via an explicit `Intent`, then closes itself.
 
 ## Screenshots
 
+Note: The presets shown in these screenshots are examples. The app doesn't include any presets - you can set them yourself.
 | Main screen | Preset menu | Edit preset |
 |---|---|---|
 | ![Main screen with presets](screenshots/main-screen.png) | ![Long-press menu on a preset](screenshots/preset-menu.png) | ![Edit dialog with Name and URL fields](screenshots/edit-preset.png) |
