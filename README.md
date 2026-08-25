@@ -107,7 +107,7 @@ instead:
 ### Verifying the download (optional but recommended)
 
 Confirm the file wasn't altered in transit by checking its SHA-256 hash matches the one
-listed on the Releases page:
+listed on the [Releases page](https://github.com/jevdemon/goto-firefox/releases)
 
 ```
 certutil -hashfile goto-firefox.apk SHA256
